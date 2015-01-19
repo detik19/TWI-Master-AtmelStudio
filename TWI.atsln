@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "twi-master", "twi-master\twi-master.cproj", "{B576B26A-AC82-4D94-B133-CFEB33A90F62}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "twi-slave", "twi-slave\twi-slave.cproj", "{20EC034C-E0AE-4E01-9A35-0C85ABDEC120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B576B26A-AC82-4D94-B133-CFEB33A90F62}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B576B26A-AC82-4D94-B133-CFEB33A90F62}.Debug|AVR.Build.0 = Debug|AVR
+		{B576B26A-AC82-4D94-B133-CFEB33A90F62}.Release|AVR.ActiveCfg = Release|AVR
+		{B576B26A-AC82-4D94-B133-CFEB33A90F62}.Release|AVR.Build.0 = Release|AVR
+		{20EC034C-E0AE-4E01-9A35-0C85ABDEC120}.Debug|AVR.ActiveCfg = Debug|AVR
+		{20EC034C-E0AE-4E01-9A35-0C85ABDEC120}.Debug|AVR.Build.0 = Debug|AVR
+		{20EC034C-E0AE-4E01-9A35-0C85ABDEC120}.Release|AVR.ActiveCfg = Release|AVR
+		{20EC034C-E0AE-4E01-9A35-0C85ABDEC120}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
