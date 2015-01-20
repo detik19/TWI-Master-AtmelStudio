@@ -10,6 +10,7 @@
 #define TWISLAVE_H_
 
 void twi_init_slave(uint8_t address);
+ISR(TWI_vect);
 
 
 
