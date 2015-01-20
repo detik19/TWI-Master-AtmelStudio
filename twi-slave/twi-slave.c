@@ -58,7 +58,8 @@ ISR(TWI_vect){
 		// clear TWI interrupt flag, prepare to receive next byte and acknowledge
 		TWCR |= (1<<TWIE) | (1<<TWINT) | (1<<TWEA) | (1<<TWEN);
 	}
-	else if( (TWSR & 0xF8) == TW_SR_DATA_ACK ){ // data has been received in slave receiver mode
+	else if( (TWSR & 0xF8) == TW_SR_DATA_ACK ) // data has been received in slave receiver mode
+	{ 
 		
 		// save the received byte inside data
 		PORTD = TWDR;
